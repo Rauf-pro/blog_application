@@ -3,7 +3,7 @@ import React from 'react'
 function NotFound() {
   return (
     <div>
-        <h2>Not Found</h2>
+        <img src="./images/404-error.jpg" alt="Not Found" />
     </div>
   )
 }
