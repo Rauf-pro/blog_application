@@ -6,7 +6,7 @@ const Category = ({handleCategory, options}) => {
   return (
     <MDBCard style={{width: "18rem", marginTop: "20px"}}>
         <h4>Categories</h4>
-        <MDBListGroup flush>
+        <MDBListGroup>
             {options.map((item, index) => (
                 <MDBListGroupItem key={index} style={{cursor: "pointer"}} onClick={() => handleCategory(item)}>
                     {item}
